@@ -107,6 +107,8 @@ public class Game extends ListFragment{
 					public void onClick(View arg0) {
 						// TODO Auto-generated method stub
 						//db se delete kr dio
+                                                MainDatabase db = new MainDatabase(getActivity());
+                                                db.open();
 					}
 					
 				});

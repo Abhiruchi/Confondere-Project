@@ -35,7 +35,7 @@ public class Addplayer extends Activity{
 				addnewplayer.setText("Done");
 				if(count == f) {
 					//addnewplayer.setText("Done");
-					
+					Intent a = new Intent(Addplayer.this, Tab.class);
 					a.putExtra("UserID", id);
 					startActivity(a);
 				}
