@@ -1,0 +1,133 @@
+<com.example.flyoutmenuexample.view.viewgroup.FlyOutContainer xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/darker_gray"
+    android:fillViewport="true" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#013220"
+        android:orientation="vertical" >
+        <Button
+            android:id="@+id/twopm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="toggleMenu"
+            android:text="2 POINTS MADE" />
+        <Button
+            android:id="@+id/twopmiss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="toggleMenu"
+            android:text="2 POINTS MISSED" />
+        <Button
+            android:id="@+id/ftm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="toggleMenu"
+            android:text="FREE THROWS MADE" />
+        <Button
+            android:id="@+id/ftmiss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="toggleMenu"
+            android:text="FREE THROWS MISSED" />
+        <Button
+            android:id="@+id/threepm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="toggleMenu"
+            android:text="3 POINTS MADE" />
+        <Button
+            android:id="@+id/threepmiss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="toggleMenu"
+            android:text="3 POINTS MISSED" />
+        <Button
+            android:id="@+id/orbd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="toggleMenu"
+            android:text="OFFENSIVE RBD" />
+        <Button
+            android:id="@+id/drbd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="toggleMenu"
+            android:text="DEFENSIVE RBD" />
+        <Button
+            android:id="@+id/assist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="toggleMenu"
+            android:text="ASSIST" />
+        <Button
+            android:id="@+id/block"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="toggleMenu"
+            android:text="BLOCK" />
+        <Button
+            android:id="@+id/foul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="toggleMenu"
+            android:text="FOUL" />
+        <Button
+            android:id="@+id/turnover"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="toggleMenu"
+            android:text="TURNOVER" />
+        <Button
+            android:id="@+id/steal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="toggleMenu"
+            android:text="STEAL" />
+    </LinearLayout>
+    </ScrollView>>
+	<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:pj="http://schemas.android.com/apk/res/com.example.project_basketballstats"
+	xmlns:bm="com.example.project_basketballstats"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+		<Button
+		    android:id="@+id/button1"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:onClick="toggleMenu"
+		    android:text="Add Stats for player &quot;   &quot;" />
+
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:layout_weight="0.5"
+       android:background="@drawable/blackback"
+       android:gravity="top"
+       android:padding="5dip" >
+
+       <com.example.project_basketballstats.controls.Carousel
+           android:id="@+id/carousel"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:layout_weight="11.20"
+           android:animationDuration="200"
+           android:background="@drawable/blackback"
+           pj:Items="@array/entries"
+           pj:Names="@array/names"
+           pj:SelectedItem="0"
+           pj:UseReflection="true" />
+   </LinearLayout>
+   
+</LinearLayout>
+</com.example.flyoutmenuexample.view.viewgroup.FlyOutContainer>

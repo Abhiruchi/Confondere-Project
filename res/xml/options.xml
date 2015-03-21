@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout="@layout/listview"
+    android:title="Preferences" >
+
+  <PreferenceCategory android:title="Options">
+      
+      <ListPreference
+        android:key="pref_type"
+        android:title="Player Fouls"
+        android:summary="Player fouls out with"
+        android:entries="@array/fouls"
+        android:entryValues="@array/fouls"
+        android:defaultValue="1"
+        />
+      
+      <ListPreference
+        android:key="pref_type"
+        android:title="Bonus"
+        android:summary="Number of fouls to reach bonus"
+        android:entries="@array/fouls"
+        android:entryValues="@array/fouls"
+        android:defaultValue="1"
+        />
+      
+      <ListPreference
+        android:key="pref_type"
+        android:title="Double Bonus"
+        android:summary="No of fouls to reach double bonus"
+        android:entries="@array/fouls"
+        android:entryValues="@array/fouls"
+        android:defaultValue="1"
+        />
+      
+  </PreferenceCategory>
+
+  <PreferenceCategory
+     android:title="Write Satistics">
+      
+    <CheckBoxPreference
+       android:key="pref_opt1"
+       android:title="Player Buttons"
+       android:summary="Show player names instead of numbers"
+       android:defaultValue="false"
+       />
+    <CheckBoxPreference
+       android:key="pref_opt2"
+       android:title="Reset bonus"
+       android:summary="Reset bonus only at halftime, not every quarter"
+       android:defaultValue="true"
+       />
+   
+     
+  </PreferenceCategory>
+  
+</PreferenceScreen>

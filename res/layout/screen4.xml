@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/black"
+    android:gravity="top"
+    android:orientation="horizontal"
+    android:weightSum="20" >
+
+    <ImageButton
+        android:id="@+id/teams"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:maxHeight="80dp"
+        android:maxWidth="80dp"
+        android:src="@drawable/team"
+        android:text="Teams"
+        android:background="@drawable/textfield"
+       android:scaleType="fitXY"
+        android:width="40dp" />
+
+    <ImageButton
+        android:id="@+id/game"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:maxHeight="80dp"
+        android:maxWidth="80dp"
+        android:background="@drawable/textfield"
+        android:src="@drawable/game"
+        android:text="Game"
+        android:scaleType="fitXY"
+        android:width="40dp" />
+
+    <ImageButton
+        android:id="@+id/settings"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:maxHeight="80dp"
+       android:background="@drawable/textfield"
+        android:maxWidth="80dp"
+        android:src="@drawable/setting"
+        android:text="Settings"
+        android:scaleType="fitXY"
+        android:width="40dp" />
+    
+    <ImageButton
+        android:id="@+id/logout"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:maxHeight="80dp"
+        android:scaleType="fitXY"
+        android:maxWidth="80dp"
+        android:background="@drawable/textfield"
+        android:src="@drawable/logout"
+        android:text="Logout"
+        android:width="40dp" />
+
+
+</LinearLayout>

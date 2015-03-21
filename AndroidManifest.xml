@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project_basketballstats"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="1"
+        android:targetSdkVersion="4" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity android:name="com.example.project_basketballstats.Teamonetwo" android:label="@string/app_name" >
+        </activity>
+        
+        <activity android:name="com.example.project_basketballstats.Winning" android:label="@string/app_name" >
+        </activity>
+        
+        <activity android:name="com.example.project_basketballstats.Options" android:theme = "@android:style/Theme.Black" >
+        </activity>
+        
+        <activity
+            android:name="com.example.project_basketballstats.Stats" 
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.project_basketballstats.Screen2" 
+            android:label="@string/app_name"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.Screen2" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.project_basketballstats.Screen3"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Screen3" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.project_basketballstats.Main_Activity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Main_Activity" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="com.example.project_basketballstats.Viewstats"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Viewstats" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="com.example.project_basketballstats.SampleActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SampleActivity" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.project_basketballstats.Screen9"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Screen9" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.project_basketballstats.Tab" 
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Tab" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.project_basketballstats.AddTeam"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.AddTeam" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.project_basketballstats.Addplayer"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Addplayer" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.project_basketballstats.Team"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Team" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.project_basketballstats.Addgame"
+            android:label="@string/app_name" >
+        </activity>
+ 
+        
+        
+    </application>
+
+</manifest>
