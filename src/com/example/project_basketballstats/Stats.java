@@ -54,6 +54,10 @@ public class Stats extends Activity{
 					int position, long id) {
 				MainDatabase db = new MainDatabase(Stats.this);
 				db.open();
+                                
+                                k = k.replace(" ", "");
+                                k = k.replace("\n", "");
+
 				Teamid = db.getTeamId(k);
 				Playerid = db.getPlayerID(Teamid);
 				Player = Playerid.split(" ");
