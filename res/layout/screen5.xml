@@ -7,7 +7,17 @@
     android:minWidth="80dp"
     android:orientation="vertical" >
 
-    
+    <ListView
+        android:id="@id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/add_new_team" >
+
+    </ListView>
+
+
 
     <Button
         android:id="@+id/add_new_team"
