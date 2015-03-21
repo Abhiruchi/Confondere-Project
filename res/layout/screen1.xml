@@ -6,6 +6,8 @@
 
 <Button android:background="@drawable/bbkg2" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/login" android:text=" Login " android:layout_marginLeft="51dp" android:layout_alignParentLeft="true" android:layout_alignBottom="@+id/signup" android:layout_alignBaseline="@+id/signup"/>
 
+<Button android:background="@drawable/bbkg2" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginBottom="56dp" android:layout_alignParentBottom="true" android:id="@+id/signup" android:text="Signup" android:layout_marginLeft="48dp" android:layout_toRightOf="@+id/login"/>
+
 
 
 </RelativeLayout>

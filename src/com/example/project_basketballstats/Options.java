@@ -19,7 +19,7 @@ public class Options extends PreferenceActivity {
 	@SuppressWarnings("deprecation")
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-        
+                addPreferencesFromResource(R.xml.options);
 		
 	}
 	
