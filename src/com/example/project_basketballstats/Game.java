@@ -90,7 +90,8 @@ public class Game extends ListFragment{
 						b.setPositiveButton("Save",new DialogInterface.OnClickListener() {
 							@Override
 							public void onClick(DialogInterface arg0, int arg1) {
-								
+								MainDatabase db = new MainDatabase(getActivity());
+                                                                db.open();
 								
 							}
 						});
